@@ -5,6 +5,7 @@
     /*OBS
     
     com o boder-box é possível manter o width mesmo com acressimo de outras tags tipo padding, que acrescenta preenchimento interno*/
+    
   }
 
 body {
@@ -12,13 +13,14 @@ body {
 
     display:flex; /*faz os elementos se posicionarem onde queremos*/
     overflow: hidden;
-      
+    border: 10px solid red; 
 
   }
 
 body *{ 
-    font-family: 'League Spartan', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    
   }
 
 
@@ -27,18 +29,97 @@ body *{
    
 
 
-  /* Estilize o elemento main para ocupar 50% */
+  /* MAIN*/
   main{
-    
-    background-color:green;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px ;
+    background-color:rgb(6, 112, 6);
     flex: 1; /* Faça com que o main ocupe 50% */
     padding: 20px; /* Adicione um espaçamento interno opcional */
     border: 1px solid #ccc; /* Adicione uma borda opcional para melhor visualização */
     box-sizing: border-box; /* Inclua a largura da borda no cálculo do tamanho */
   }
   
-  /* Estilize o elemento aside com largura máxima */
+  /*LOGO MAIN*/
+  main div img{
+    width: 100%;
+    max-width: 300px;
+    padding: 62px 0;
+  }
+
+  /*TEXT MAIN*/
+   section h2{
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  section h3{
+    font-family: Quicksand;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 8.5px 0;
+  }
+
+  section p{
+    font-family: Quicksand;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 40px;
+  }
+
+
+  /*FORM MAIN*/
+
+  form h3{
+    padding-bottom: 17px;
+  }
+
+  form{
+    display:flex ;
+    flex-direction: column;
+    padding-bottom: 52px;
+    width: 100%;
+    max-width: 60%;
+    z-index: 1;
+    position: absolute;
+    
+
+  }
+  form fieldset{
+    background-color: darkblue;
+    border: 2px solid rgb(238, 255, 0);
+    display: flex;
+    
+  }
+
+
+  form fieldset input{
+    padding: 17px 50% 15px;
+    max-width: 100%;
+  }
+
+  form fieldset button{
+    position: absolute;
+    display: flex;
+    right: 0;
+
+  }
+
+  #LinkLer a{
+    
+  }
+
+
+
+  /* ASIDE */
   aside {
+   
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px ;
     display: flex;
     background-color:green;
     max-width: 50%; /* Defina a largura máxima como 50% da página */
@@ -49,11 +130,9 @@ body *{
   }
 
 
-
   aside {
     max-width: 50%;
     direction: rtl; /* Estabeleça a direção da direita para a esquerda */
-
 
 
   }

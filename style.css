@@ -57,6 +57,7 @@ body *{
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
+    color: rgb(20, 101, 112);
   }
 
   section h3{
@@ -140,15 +141,15 @@ body *{
       font-size: 14px;
       font-style: normal;
       font-weight: 700;
-      
+    
     }
 
     article h3 a{
       display:flex ;
       text-decoration: none;
-      color: white;
+      color: rgba(255, 255, 255, 0.685);
       align-items: center;
-      position: relative;
+      max-width: max-content;
     }
 
 
@@ -213,8 +214,9 @@ body *{
 /*HOVER MAIN*/
 
 article h3 a:hover {
-  transition: 1s;
+  transition: 0.8s;
   color: var(--color-purple);
+  text-decoration: underline;
 
 }
 

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0; /*preenchimento interno*/
+    box-sizing: border-box;
+    /*OBS
+    
+    com o boder-box é possível manter o width mesmo com acressimo de outras tags tipo padding, que acrescenta preenchimento interno*/
+  }
+
+body {
+    height:100vh;
+
+    display:flex; /*faz os elementos se posicionarem onde queremos*/
+    overflow: hidden;
+      
+
+  }
+
+body *{ 
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+
+
+
+   
+
+
+  /* Estilize o elemento main para ocupar 50% */
+  main{
+    
+    background-color:green;
+    flex: 1; /* Faça com que o main ocupe 50% */
+    padding: 20px; /* Adicione um espaçamento interno opcional */
+    border: 1px solid #ccc; /* Adicione uma borda opcional para melhor visualização */
+    box-sizing: border-box; /* Inclua a largura da borda no cálculo do tamanho */
+  }
+  
+  /* Estilize o elemento aside com largura máxima */
+  aside {
+    display: flex;
+    background-color:green;
+    max-width: 50%; /* Defina a largura máxima como 50% da página */
+    padding: 1px; /* Adicione um espaçamento interno opcional */
+    border: 1px solid #ccc; /* Adicione uma borda opcional para melhor visualização */
+    box-sizing: border-box; /* Inclua a largura da borda no cálculo do tamanho */
+    overflow: hidden;
+  }
+
+
+
+  aside {
+    max-width: 50%;
+    direction: rtl; /* Estabeleça a direção da direita para a esquerda */
+
+
+
+  }
+  
+  /* Estilize a imagem dentro do aside */
+  aside img {
+     /* Defina a largura da imagem como 100% */
+    height: auto; /* Mantenha a proporção da altura */
+    object-fit: cover;
+
+  }
+
+  @media screen and (max-width: 480px) {
+    /* Define uma nova imagem para a tag img com a classe .photoPhone */
+    img.photoPhone {
+        content: url(./assets/photo-2-phone.png);
+    }
+}

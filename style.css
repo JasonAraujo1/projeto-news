@@ -120,7 +120,7 @@ body *{
       position: absolute;
       display: flex;
       right: 0;
-      padding: 13px;
+      padding: 12.5px;
       background-color:var(--color-purple);
       border: #ccc;
       border-bottom-right-radius: 5px;

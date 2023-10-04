@@ -104,13 +104,18 @@ body *{
     flex: 1;
   }
 
-  form fieldset button{
-    position: absolute;
-    display: flex;
-    right: 0;
 
-  }
 
+    /*BUTTOM MAIN*/
+    form button{
+      position: absolute;
+      display: flex;
+      right: 0;
+      border: 2px solid fuchsia;
+      padding: 12px;
+      background-color: blue;
+
+    }
   
 
 

@@ -12,8 +12,8 @@ body {
     height:100vh;
     display:flex; /*faz os elementos se posicionarem onde queremos*/
     overflow: hidden;
-    border: 10px solid red; 
-
+    border: 10px solid var(--bg-color);
+    background-color:var(--bg-color) ;
   }
 
 body *{ 
@@ -23,7 +23,11 @@ body *{
   }
 
 
-
+ :root{
+  --bg-color:rgb(236, 233, 233);
+  --bg-logo:rgb(251 189 192);
+  --bg-lighter:rgb(255, 252, 245) ;
+ }
 
    
 
@@ -32,7 +36,7 @@ body *{
   main{
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px ;
-    background-color:rgb(6, 112, 6);
+    background-color:var(--bg-logo);
     flex: 1; /* Faça com que o main ocupe 50% */
     padding: 20px; /* Adicione um espaçamento interno opcional */
     border: 1px solid #ccc; /* Adicione uma borda opcional para melhor visualização */
@@ -75,6 +79,9 @@ body *{
 
   form h3{
     padding-bottom: 17px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
   }
 
   form{
@@ -89,18 +96,17 @@ body *{
 
   }
   form fieldset{
-    background-color: darkblue;
-    border: 2px solid rgb(238, 255, 0);
     display: flex;
-    
+    border: #cccccc00;
   }
 
 
   form fieldset input{
-    background-color: salmon;
+    background-color:var(--bg-lighter);
     padding: 17px 15px;
     max-width: 100%;
     flex: 1;
+    border: #ccc;
   }
 
 
@@ -110,9 +116,10 @@ body *{
       position: absolute;
       display: flex;
       right: 0;
-      border: 2px solid fuchsia;
       padding: 12px;
-      background-color: blue;
+      background-color:rgba(202, 153, 235);
+      border: #ccc;
+      
 
     }
   
@@ -123,9 +130,17 @@ body *{
       display: flex;
       flex-direction: column;
       padding-top: 120px;
+
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
     }
 
-
+    article h3 a{
+      display:flex ;
+      text-decoration: none;
+      color: white;
+    }
 
 
   /* ASIDE */
@@ -134,10 +149,10 @@ body *{
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px ;
     display: flex;
-    background-color:green;
+  
     max-width: 50%; /* Defina a largura máxima como 50% da página */
     padding: 1px; /* Adicione um espaçamento interno opcional */
-    border: 1px solid #fd0808dc; /* Adicione uma borda opcional para melhor visualização */
+
     box-sizing: border-box; /* Inclua a largura da borda no cálculo do tamanho */
     overflow: hidden;
   }

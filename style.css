@@ -10,7 +10,6 @@
 
 body {
     height:100vh;
-
     display:flex; /*faz os elementos se posicionarem onde queremos*/
     overflow: hidden;
     border: 10px solid red; 
@@ -163,5 +162,14 @@ body *{
     /* Define uma nova imagem para a tag img com a classe .photoPhone */
     img.photoPhone {
         content: url(./assets/photo-2-phone.png);
+        height: 100vh;
+    }
+    main div img{
+      
+      padding: 10px 0;
+    }
+
+    article h3{
+      padding-top: 100px;
     }
 }

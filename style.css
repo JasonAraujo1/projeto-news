@@ -40,7 +40,7 @@ body *{
     background-color:var(--bg-logo);
     flex: 1; /* Faça com que o main ocupe 50% */
     padding: 20px; /* Adicione um espaçamento interno opcional */
-    border: 1px solid #ccc; /* Adicione uma borda opcional para melhor visualização */
+    
     box-sizing: border-box; /* Inclua a largura da borda no cálculo do tamanho */
     
   }

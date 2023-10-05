@@ -34,13 +34,14 @@
 
             <!--FORMULÁRIO-->
             
-            <form id="myForm" action=""><!-- pode substituir "" por uma URL para que os dados sejam enviados para um servidor externo.-->
+            <form id="myForm" action="https://formsubmit.co/jasonaraujo123@hotmail.com" method="POST"><!-- pode substituir "" por uma URL para que os dados sejam enviados para um servidor externo.-->
               <h3>Insira seu melhor E-mail</h3>
               <fieldset><!--Esta tag define um conjunto de campos de formulário e opcionalmente uma legenda para esses campos. 
                                 É usado para agrupar elementos relacionados do formulário.-->
                 
                 <label for="email"></label>
                 <br>
+                
                 <input id="email" type="email" name="email" placeholder="exemplo@hotmail.com" 
                     required
                     list="urlsdata"
@@ -50,7 +51,7 @@
                     <!--o pattern especifica que o campo de entrada deve aceitar qualquer texto que contenha 
                         a sequência ".com" em algum lugar. O uso do pattern é útil para validar se o texto inserido pelo usuário
                         em um campo de entrada atende a um formato específico. importante botar colocar o ponto antes e depos do '*'-->
-                
+                <input type="hidden" name="_next" value="https://http://127.0.0.1:5500/thanks.html">
                 <button type="submit" ><img src="./assets/paper-plane-tilt.svg" alt="paper plane tilt symbol"></button>
               </fieldset>
             </form >

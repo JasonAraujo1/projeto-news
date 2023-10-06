@@ -1,3 +1,4 @@
+<h1 align="center">#5 News </h1>
 <h1 align="center">Cadastro de E-mail para Notícias Diárias</h1>
 
 <p align="center">
@@ -18,7 +19,7 @@
 <br>
 
 <p align="center">
-  <img alt="Cadastro de E-mail" src="caminho_para_uma_imagem_do_projeto.jpg" width="100%">
+  <img alt="" src=".github/news-thumbnail.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias

@@ -1,5 +1,5 @@
 <h1 align="center">#5 News </h1>
-<h1 align="center">Cadastro de E-mail para Notícias Diárias</h1>
+<h2 align="center">Cadastro de E-mail para Notícias Diárias</h2>
 
 <p align="center">
     Mantenha-se informado diariamente com as últimas notícias diretamente na sua caixa de entrada!

@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML e CSS
 - [formsubmit.co](https://formsubmit.co) para capturar e-mails
 - Git e Github
-- Figma para design
+- Figma e Canva para design
 
 ## 💻 Projeto
 

@@ -39,11 +39,11 @@ formulário o site redireciona para um capcha de confirmação e o formsubmit.co
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](<https://jasonaraujo1.github.io/projeto-news/). 
+Você pode visualizar o layout do projeto através [DESSE LINK](<https://jasonaraujo1.github.io/projeto-news/>). 
 
 ## 📝 Instruções de Cadastro
 
-1. Acesse o [News](<https://jasonaraujo1.github.io/projeto-news/). 
+1. Acesse o [News](<https://jasonaraujo1.github.io/projeto-news/>). 
 2. Preencha o formulário de cadastro com seu endereço de e-mail.
 3. Clique no icon de enviar(seta).
 4. Verifique sua caixa de entrada de e-mail para confirmar a inscrição.
